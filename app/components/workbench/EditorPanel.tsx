@@ -220,7 +220,7 @@ export const EditorPanel = memo(
                           onClick={() => setActiveTerminal(index)}
                         >
                           <div className="i-ph:terminal-window-duotone text-lg" />
-                          Bolt Terminal
+                          oTToDev Terminal
                         </button>
                       ) : (
                         <React.Fragment>
@@ -257,7 +257,7 @@ export const EditorPanel = memo(
                 const isActive = activeTerminal === index;
 
                 if (index == 0) {
-                  logger.info('Starting bolt terminal');
+                  logger.info('Starting oTToDev terminal');
 
                   return (
                     <Terminal
